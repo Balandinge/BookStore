@@ -1,0 +1,76 @@
+.subscribeSection {
+  background-color: rgba(244, 238, 253, 1);
+  padding: 56px 0 56px 64px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.subscribeTitle {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0%;
+  color: #000000;
+  margin: 0 0 16px 0;
+}
+
+.subscribeDescription {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: rgba(168, 168, 168, 1);
+  margin: 0 0 32px 0;
+}
+
+.subscribeInputContainer {
+  display: flex;
+  width: 992px;
+}
+
+.subscribeInput {
+  width: 845px;
+  height: 56px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border: 1px solid #e9ecef;
+  padding: 0 16px;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #000000;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.subscribeInput::placeholder {
+  color: rgba(168, 168, 168, 1);
+  opacity: 1;
+}
+
+.subscribeButton {
+  width: 147px;
+  height: 56px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: rgba(49, 48, 55, 1);
+  border: none;
+  padding: 16px 40px;
+  cursor: pointer;
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 5%;
+  color: #ffffff;
+}
+
+.subscribeButton:hover {
+  background-color: rgba(39, 38, 45, 1);
+}

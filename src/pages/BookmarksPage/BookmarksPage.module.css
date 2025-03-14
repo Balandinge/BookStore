@@ -1,0 +1,137 @@
+.main {
+  flex: 1;
+  max-width: 1120px;
+  margin: 0 auto;
+  font-family: "Arial", sans-serif;
+}
+
+.bookmarksContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.backButton {
+  cursor: pointer;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.bookmarksTitle {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0%;
+  color: rgba(49, 48, 55, 1);
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.emptyMessage {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(49, 48, 55, 1);
+}
+
+.bookmarksItems {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.bookmarkItem {
+  position: relative;
+  width: 1120px;
+  height: 241px;
+  background-color: #ffffff;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.imageContainer {
+  width: 256px;
+  height: 192px;
+  background-color: rgba(215, 228, 253, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.itemImage {
+  width: 100px;
+  height: 150px;
+  object-fit: contain;
+}
+
+.itemTitle {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  position: absolute;
+  top: 36px;
+  left: 288px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.itemTitle:hover {
+  text-decoration: underline;
+}
+
+.itemPrice {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  position: absolute;
+  top: 124px;
+  left: 288px;
+  margin: 0;
+}
+
+.rating {
+  position: absolute;
+  top: 132px;
+  left: 528px;
+  display: flex;
+  gap: 4px;
+}
+
+.star {
+  font-size: 20px;
+}
+
+.bookDetails {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(168, 168, 168, 1);
+  position: absolute;
+  top: 76px;
+  left: 288px;
+}
+
+.bookmarkButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 84px;
+  left: 1080px;
+}
+
+.bookmarkIcon {
+  width: 24px;
+  height: 24px;
+}

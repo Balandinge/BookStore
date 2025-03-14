@@ -1,0 +1,221 @@
+.loading,
+.empty {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(49, 48, 55, 1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.searchTitle {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  color: rgba(49, 48, 55, 1);
+}
+
+.searchCount {
+  font-family: "Helios", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(49, 48, 55, 1);
+  margin: 16px 0 0 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(352px, 1fr));
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.pagination {
+  width: 1120px;
+  height: 75px;
+  border-top: 1px solid rgba(231, 231, 231, 1);
+  display: flex;
+  align-items: center;
+  margin: 72px 0;
+  position: relative;
+}
+
+.prevButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.prevButton:disabled {
+  cursor: not-allowed;
+}
+
+.prevIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.prevButton span {
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(49, 48, 55, 1);
+}
+
+.prevButton .disabled {
+  color: rgba(168, 168, 168, 1);
+}
+
+.pageNumbers {
+  display: flex;
+  gap: 16px;
+  margin-left: 405px;
+  align-items: center;
+}
+
+.pageNumbers button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.activePage {
+  color: rgba(49, 48, 55, 1);
+}
+
+.inactivePage {
+  color: rgba(168, 168, 168, 1);
+}
+
+.dots {
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(168, 168, 168, 1);
+}
+
+.nextButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 1052px;
+  gap: 8px;
+}
+
+.nextButton:disabled {
+  cursor: not-allowed;
+}
+
+.nextButton span {
+  font-family: "Helios", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(49, 48, 55, 1);
+}
+
+.nextButton .disabled {
+  color: rgba(168, 168, 168, 1);
+}
+
+.nextIcon {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 768px) {
+  .searchTitle {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .searchCount {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 12px;
+  }
+
+  .grid {
+    margin-top: 32px;
+  }
+
+  .pagination {
+    width: 100%;
+    margin: 48px 0;
+  }
+
+  .pageNumbers {
+    margin-left: 300px;
+  }
+
+  .nextButton {
+    left: auto;
+    right: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .searchTitle {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .searchCount {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 8px;
+  }
+
+  .grid {
+    margin-top: 24px;
+  }
+
+  .pagination {
+    width: 100%;
+    height: 60px;
+    margin: 32px 0;
+  }
+
+  .prevButton span,
+  .nextButton span,
+  .pageNumbers button,
+  .dots {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .prevButton {
+    gap: 4px;
+  }
+
+  .prevIcon,
+  .nextIcon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .pageNumbers {
+    margin-left: 40%;
+    gap: 8px;
+  }
+
+  .nextButton {
+    left: auto;
+    right: 8px;
+  }
+}

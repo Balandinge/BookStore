@@ -1,0 +1,64 @@
+.bookCard {
+  width: 352px;
+  height: 454px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.imageContainer {
+  width: 352px;
+  height: 265px;
+  background-color: rgba(254, 233, 226, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookImage {
+  width: 226px;
+}
+
+.bookTitle {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  position: absolute;
+  top: 285px;
+  margin: 0;
+  padding-right: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 320px;
+}
+
+.bookPrice {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  position: absolute;
+  top: 421px;
+  margin: 0;
+}
+
+.removeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.removeIcon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}

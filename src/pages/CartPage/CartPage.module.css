@@ -1,0 +1,191 @@
+.main {
+  flex: 1;
+  max-width: 1120px;
+  margin: 0 auto;
+  font-family: "Arial", sans-serif;
+}
+
+.cartContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.backButton {
+  cursor: pointer;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.cartTitle {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0%;
+  color: rgba(49, 48, 55, 1);
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.emptyMessage {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(49, 48, 55, 1);
+}
+
+.cartItems {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.cartItem {
+  position: relative;
+  width: 1120px;
+  height: 241px;
+  background-color: #ffffff;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.imageContainer {
+  width: 256px;
+  height: 192px;
+  background-color: rgba(244, 238, 253, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.itemImage {
+  height: 191px;
+}
+
+.itemTitle {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(49, 48, 55, 1);
+  position: absolute;
+  top: 24px;
+  left: 288px;
+  margin: 0;
+  max-width: 500px;
+}
+
+.quantityControl {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  position: absolute;
+  top: 112px;
+  left: 288px;
+}
+
+.quantityButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.quantityIcon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.quantityText {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 60px;
+  color: rgba(49, 48, 55, 1);
+}
+
+.itemTotal {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 24px;
+  color: rgba(49, 48, 55, 1);
+  position: absolute;
+  top: 66px;
+  left: 864px;
+}
+
+.removeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 68px;
+  left: 1064px;
+}
+
+.removeIcon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.cartSummary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.totalContainer {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.totalLabel {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: rgba(49, 48, 55, 1);
+}
+
+.totalPrice {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: rgba(49, 48, 55, 1);
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 48px;
+}
+
+.checkoutButton {
+  width: 256px;
+  height: 56px;
+  background-color: rgba(49, 48, 55, 1);
+  border: none;
+  font-family: "Bebas Neue", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 5%;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.checkoutButton:hover {
+  background-color: rgba(39, 38, 45, 1);
+}
